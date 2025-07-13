@@ -80,6 +80,7 @@ export default function MetricList({ user, onSignOut, onSelectMetric }: MetricLi
           onClick={onSignOut} 
           style={{ 
             background: '#ccc', 
+            color: 'black',
             border: 'none', 
             padding: '10px 15px', 
             borderRadius: '5px',
