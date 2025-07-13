@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   title: 'Habitly - Simple habits, lasting change',
   description: 'Track your daily habits with a simple visual grid. See your progress over time and build lasting change with Habitly.',
   keywords: 'habits, habit tracker, daily habits, progress tracking, habit building',
+  manifest: '/manifest.json',
+  themeColor: '#4CAF50',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
+  appleWebApp: {
+    capable: true,
+    title: 'Habitly',
+    statusBarStyle: 'default'
+  },
   openGraph: {
     title: 'Habitly - Simple habits, lasting change',
     description: 'Track your daily habits with a simple visual grid.',
